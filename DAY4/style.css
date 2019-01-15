@@ -1,0 +1,44 @@
+html {
+  background-color:#4c3f5a;
+  color: white;
+  font-family: 'Lato', sans-serif;
+}
+
+
+article {
+  width: 50rem;
+  margin: 0 auto;
+}
+
+section {
+  padding: 0.5rem 2rem;
+}
+
+.intro , .conclusion , em {
+  background-color: #ff964f;
+}
+
+h1, h2 {
+  color:#ff7212;
+  font-weight: 900;
+}
+
+h1 {
+  font-size:240%;
+  text-align: center;
+}
+
+h2 {
+  text-align:180%;
+}
+
+p {
+  line-height: 150%;
+}
+
+a {
+  text-decoration-style: none;
+  color: black;
+}
+
+
