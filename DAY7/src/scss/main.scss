@@ -3,9 +3,10 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 100vh;
+    min-height: 100vh;
     font-family: sans-serif;
     margin: 0;
+    color:white;    
 }
 
 h2 {
@@ -13,14 +14,12 @@ h2 {
     flex-flow: row-reverse;
     font-size: 2em;
     text-align: right;
-    color:white;
     padding: 1em;
 }
 
 h1 {
     display: flex;
     flex-flow: row;
-    color: white;
     height: 60vh;
     align-items: flex-end;
     font-size: 4em;
