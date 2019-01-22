@@ -1,0 +1,53 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.chess {
+    display: flex;
+    flex-direction: row;
+    margin: 5em;
+}
+
+
+
+
+.chess div div {
+    width: 10vmin;
+    height: 10vmin;
+    border: 1px solid black;
+}
+
+.chess .row1 div:nth-child(odd) {
+    background-color: darkgray;
+}
+
+.chess .row2 div:nth-child(even) {
+    background-color: darkgray;
+}
+
+.chess .row3 div:nth-child(odd) {
+    background-color: darkgray;
+}
+
+.chess .row4 div:nth-child(even) {
+    background-color: darkgray;
+}
+
+.chess .row5 div:nth-child(odd) {
+    background-color: darkgray;
+}
+
+.chess .row6 div:nth-child(even) {
+    background-color: darkgray;
+}
+
+.chess .row7 div:nth-child(odd) {
+    background-color: darkgray;
+}
+
+.chess .row8 div:nth-child(even) {
+    background-color: darkgray;
+}
